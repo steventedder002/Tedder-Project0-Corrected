@@ -1,0 +1,28 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body{
+  background-color: skyblue;
+  background-color: #87ceeb;
+  background-color: rgb(135, 206, 235);
+  background-color: hsl(197, 71, 73);
+  font-family: Orbitron, Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ header{
+   font-size: 5em;
+ }
+ 
+ header>h1{
+   display: inline-block;
+   width: 30%;
+ }
+ 
+ header>nav{
+   display: inline-block;
+   width: 68%;
+ }
+ 
+ h1{
+   font-size: 5rem;
+ }
