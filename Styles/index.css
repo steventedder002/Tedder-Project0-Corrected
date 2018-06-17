@@ -1,6 +1,17 @@
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css";
-@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+html,body{
+  width: 100%;  
+}
+
+body{
+ background-color: skyblue;
+ background-color: #87ceeb;
+ background-color: rgb(135, 206, 235);
+ background-color: hsl(197, 71, 73);
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 html{
   font-size: 10px;
@@ -20,20 +31,8 @@ html{
   text-align: center;
   font-size: 16px;
 }
-/*
-html,body{
-  width: 100%;
-}
 
-body{
- background-color: skyblue;
- background-color: #87ceeb;
- background-color: rgb(135, 206, 235);
- background-color: hsl(197, 71, 73);
- font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-header{
+/*header{
   font-size: 5em;
 }
 
