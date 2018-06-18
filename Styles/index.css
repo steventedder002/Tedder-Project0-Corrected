@@ -1,6 +1,7 @@
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css";
 
+
 html,body{
   width: 100%;  
 }
@@ -24,7 +25,7 @@ html{
   border-right: 1px;
 }
 
-.button1{
+*.button1{
   background-color: #008cba;
   border: none;
   color:white;
@@ -32,20 +33,6 @@ html{
   font-size: 16px;
 }
 
-/*header{
-  font-size: 5em;
-}
-
-header>h1{
-  display: inline-block;
-  width: 30%;
-}
-
-header>nav{
-  display: inline-block;
-  width: 68%;
-}
-
-h1{
-  font-size: 5rem;
+borderimg{
+  padding:10px;
 }

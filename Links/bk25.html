@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Project BookStore</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> 
   <link rel="stylesheet" href="Styles/index.css">
   <style> .button1{
       background-color: #008cba;
@@ -16,21 +17,23 @@
     }
   </style>
 </head>
-<body>
+<body style="background-color: skyblue">
   <header>
     <h1>
       <a href="index.html">Project BookStore</a>
-      <span style="padding: 12em"><input type="text" placeholder="Search Title, Author..."></span>
     </h1>
 
-    <nav class="col-sm-8">
+    <nav class="col-sm-9">
       <ul class="nav navbar-nav">
       <li><a href="bks.html">Books</a></li>
       <li><a href="ebks.html">E-Books</a></li>
       <li><a href="pop.html">Popular Choices</a></li>
       <li><a href="gft.html">Gift Cards</a></li>
+      <li><a href="contacts.html">Contact Us</a></li>
       <li><a href="about.html">About Us</a></li>
       </ul>
+      <span style="padding: 12em"><input type="text" placeholder="Search Title, Author...">
+      <button type="submit"><i class="fa fa-search"></i></button></span>
     </nav>
   </header>
 </body>
@@ -82,8 +85,20 @@
       <Button class=" button1">
           Add To Cart <span class="glyphicon glyphicon-shopping-cart"></span>
       </Button>
-    </h6>
-  </section>
-  
+  </section>  
 </main>
+<footer class="row">
+    <nav class="col-sm-8 col-sm-offset-2">
+      <ul class="nav navbar-nav">
+        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a></li>
+        <li><a href="https://www.twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
+        <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+      </ul>
+    </nav>
+  
+    <small class="col-sm-12 text-center">
+      Copyright &copy; 2018 Steven Tedder, all rights reserved.
+    </small>
+  </footer>
 </html>
