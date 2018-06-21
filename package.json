@@ -4,8 +4,7 @@
   "description": "## about us We are a online bookstore specalizing in offering customers the newest titles as soon as we have them in stock. Be advised supplies are limited and are priced to go as fast as we get them.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node.index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
