@@ -19,5 +19,6 @@
   "homepage": "https://github.com/steventedder002/Tedder-Project0-Corrected#readme",
   "dependencies": {
     "express": "^4.16.3"
-  }
+  },
+  "devDependencies": {}
 }
