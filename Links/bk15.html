@@ -71,20 +71,20 @@
       <section class="price-block">
         <h5>Hardcover</h5>
         <h6>Retail Price: $28.00</h6>
-        <h6>Online Price: </h6><h4><strong>$20.95</strong></h4>
+        <h6>Online Price: </h6><h4><strong>$ </strong><strong id="price">20.95</strong></h4>
       </section>
-      <select>
+      <select class = "btn btn-default" id="select">
         <option value="Quantity">Quantity</option>
-        <option value="One">One (1)</option>
-        <option value="Two">Two (2)</option>
-        <option value="Three">Three (3)</option>
-        <option value="Four">Four (4)</option>
-        <option value="Five">Five (5)</option>
+        <option value="1">One (1)</option>
+        <option value="2">Two (2)</option>
+        <option value="3">Three (3)</option>
+        <option value="4">Four (4)</option>
+        <option value="5">Five (5)</option>
       </select>
-      <Button class=" button1">
-          Add To Cart <span class="glyphicon glyphicon-shopping-cart"></span>
+      <button type="button" onclick="numBooks()">
+        Add To Cart <span class="glyphicon glyphicon-shopping-cart"></span>
       </Button>
-  </section>  
+  </section> 
 </main>
 <footer class="row">
     <nav class="col-sm-8 col-sm-offset-2">
@@ -100,4 +100,5 @@
       Copyright &copy; 2018 Steven Tedder, all rights reserved.
     </small>
   </footer>
+  <script type="text/Javascript" src="../Script/addCart.js"></script>
 </html>
