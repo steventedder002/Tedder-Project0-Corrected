@@ -4,33 +4,34 @@ const app = express();
 
 app.use(express.static('Images'));
 app.use(express.static('Styles'));
+app.use(express.static('Links'));
 
-app.get('/', (req, res) =>{                                          
-  res.sendFile(path.join(__dirname,'./index.html'));
+app.get(/[a-z]/, (req, res) =>{                                          
+  res.sendFile(path.join(__dirname,'../index.html'));
 });
 
 app.get('/about', (req, res) =>{                                    
-  res.sendFile(path.join(__dirname,'./about.html'));
+  res.sendFile(path.join(__dirname,'../about.html'));
 });
 
 app.get('/bks', (req, res) =>{                                    
-  res.sendFile(path.join(__dirname,'./bks.html'));
+  res.sendFile(path.join(__dirname,'../bks.html'));
 });
 
 app.get('/contacts', (req, res) =>{                                    
-  res.sendFile(path.join(__dirname,'./contacts.html'));
+  res.sendFile(path.join(__dirname,'../contacts.html'));
 });
 
 app.get('/ebks', (req, res) =>{                                    
-  res.sendFile(path.join(__dirname,'./ebks.html'));
+  res.sendFile(path.join(__dirname,'../ebks.html'));
 });
 
 app.get('/gft', (req, res) =>{                                    
-  res.sendFile(path.join(__dirname,'./gft.html'));
+  res.sendFile(path.join(__dirname,'../gft.html'));
 });
 
 app.get('/pop', (req, res) =>{                                    
-  res.sendFile(path.join(__dirname,'./pop.html'));
+  res.sendFile(path.join(__dirname,'../pop.html'));
 });
 
 app.get('/bk1', (req, res)=>{
