@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project BookStore</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="Styles/index.css">
+  <style> .button1{
+      background-color: #008cba;
+      border: none;
+      color:white;
+      text-align: center;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body style="background-color: skyblue">
+  <header>
+    <h1>
+      <a href="index.html">Project BookStore</a>
+    </h1>
+
+  <nav class="col-sm-9">
+      <ul class="nav navbar-nav">
+      <li><a href="bks.html">Books</a></li>
+      <li><a href="ebks.html">E-Books</a></li>
+      <li><a href="pop.html">Popular Choices</a></li>
+      <li><a href="gft.html">Gift Cards</a></li>
+      <li><a href="contacts.html">Contact Us</a></li>
+      <li><a href="about.html">About Us</a></li>
+      </ul>
+      <span style="padding: 12em"><input type="text" placeholder="Search Title, Author...">
+      <button type="submit"><i class="fa fa-search"></i></button></span>
+    </nav>
+  </header>
+</body>
+<main >
+  <section class="col-sm-5">
+    <figure>
+      <img src="../Images/bk2.1.jpg" alt="The Outsider (Hardcover)" class="img-responsive" hspace="10">
+    </figure>
+    <section class="col-sm-12">
+      <h4>Details</h4>
+        <h6>ISBN-13: 9781501180989</h6>
+        <h6>ISBN-10: 1501180983</h6>
+        <h6>Publisher: Scribner Book Company</h6>
+        <h6>Publish Date: May 2018</h6>
+        <h6>Page Count: 576</h6>
+        <h6>Dimensions: 9.3 x 6.5 x 1.9 inches</h6>
+        <h6>Shipping Weight: 2.15 pounds</h6>
+    </section>
+  </section><br><br><br><br>
+  
+  <h4 class="details-title-text">
+    <strong>The Outsider</strong>
+  </h4>
+  <section>
+    <h6>by Stephen King</h6>
+  </section>
+  <section>
+    <h6><h5>Overview -</h5> <p>An unspeakable crime. A confounding investigation. At a time when the King brand has never been stronger, he has 
+      delivered one of his most unsettling and compulsively readable stories.<br>An eleven-year-old boy's violated corpse is found in a town 
+      park. Eyewitnesses and fingerprints point unmistakably to one of Flint City's most popular citizens. He is Terry Maitland, Little League 
+      coach, English teacher, husband, and father of two girls. Detective Ralph Anderson, whose son Maitland once coached, orders a quick and 
+      very public arrest. Maitland has an alibi, but Anderson and the district attorney soon add DNA evidence to go with the fingerprints and 
+      witnesses. Their case seems ironclad. As the investigation expands and horrifying answers begin to emerge, King's propulsive story 
+      kicks into high gear, generating strong tension and almost unbearable suspense. Terry Maitland seems like a nice guy, but is he wearing 
+      another face? When the answer comes, it will shock you as only Stephen King can.</h6></p>
+      <br><br>
+      <section class="price-block">
+        <h5>Hardcover</h5>
+        <h6>Retail Price: $30.00</h6>
+        <h6>Online Price: </h6><h4><strong>$ </strong><strong id="price">18.00</strong></h4>
+      </section>
+      <select class = "btn btn-default" id="select">
+        <option value="Quantity">Quantity</option>
+        <option value="1">One (1)</option>
+        <option value="2">Two (2)</option>
+        <option value="3">Three (3)</option>
+        <option value="4">Four (4)</option>
+        <option value="5">Five (5)</option>
+      </select>
+      <button type="button" onclick="numBooks()">
+        Add To Cart <span class="glyphicon glyphicon-shopping-cart"></span>
+      </Button>
+  </section>  
+</main>
+<footer class="row">
+    <nav class="col-sm-8 col-sm-offset-2">
+      <ul class="nav navbar-nav">
+        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a></li>
+        <li><a href="https://www.twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
+        <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+      </ul>
+    </nav>
+  
+    <small class="col-sm-12 text-center">
+      Copyright &copy; 2018 Steven Tedder, all rights reserved.
+    </small>
+  </footer>
+  <script type="text/Javascript" src="../Script/addCart.js"></script>
+</html>

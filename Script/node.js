@@ -89,7 +89,7 @@ var httpHandler = (request, response) => {
   }  
 }
   
-var server = http.createServer(httpHandler);                  //create the server. the (handler) actually calls the server
-var port = 9060;                                              //create the port number
+var server = http.createServer(httpHandler);                  
+var port = 9060;                                              
 
-server.listen(port);                                          //create the listener
+server.listen(port);                                          

@@ -2,11 +2,9 @@ var express = require('express');
 var path = require('path');
 const app = express();
 
-app.use(express.static('Images'));
-app.use(express.static('Styles'));
-app.use(express.static('Links'));
+app.use(express.static('Public'));
 
-app.get(/[a-z]/, (req, res) =>{                                          
+app.get('/', (req, res) =>{                                          
   res.sendFile(path.join(__dirname,'../index.html'));
 });
 
