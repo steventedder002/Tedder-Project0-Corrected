@@ -50,6 +50,8 @@
       Copyright &copy; 2018 Steven Tedder, all rights reserved.
     </small>
   </footer>
+  <script type="text/Javascript" src="../Script"></script>
 </html>
 
+{% endblock %}
 {% endblock %}  

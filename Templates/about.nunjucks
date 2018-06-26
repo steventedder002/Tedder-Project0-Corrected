@@ -1,0 +1,42 @@
+{% extends 'maintemp.nunjucks' %}
+
+{% block main %}
+<main>
+  <h4 class="col-sm-12">
+    About Us
+  </h4>
+  <section class="col-sm-4">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime earum perferendis asperiores labore quae eum illum impedit 
+      officiis. Ullam inventore impedit unde rerum corporis cum sapiente expedita voluptatum nihil sequi? Lorem ipsum, dolor sit 
+      amet consectetur adipisicing elit. Magni amet officiis exercitationem, et corrupti quia voluptatibus, recusandae vel eligendi, 
+      porro commodi voluptatem assumenda! Voluptatem voluptas deleniti ad atque, officiis tempora? Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Delectus nisi architecto nulla provident quaerat vitae qui aspernatur nobis iste cupiditate ea 
+      repudiandae, debitis doloribus error aliquam quas beatae similique pariatur. Lorem ipsum dolor sit amet consectetur adipisicing 
+      elit. Numquam ducimus quas sapiente recusandae voluptatum? Natus ducimus dolorum veritatis? Dolores fuga ipsa dignissimos 
+      aspernatur repellendus? Quam eligendi qui architecto praesentium explicabo!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime earum perferendis asperiores labore quae eum illum impedit 
+        officiis. Ullam inventore impedit unde rerum corporis cum sapiente expedita voluptatum nihil sequi? Lorem ipsum, dolor sit 
+        amet consectetur adipisicing elit. Magni amet officiis exercitationem, et corrupti quia voluptatibus, recusandae vel eligendi, 
+        porro commodi voluptatem assumenda! Voluptatem voluptas deleniti ad atque, officiis tempora? Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Delectus nisi architecto nulla provident quaerat vitae qui aspernatur nobis iste cupiditate ea 
+        repudiandae, debitis doloribus error aliquam quas beatae similique pariatur. Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit. Numquam ducimus quas sapiente recusandae voluptatum? Natus ducimus dolorum veritatis? Dolores fuga ipsa dignissimos 
+        aspernatur repellendus? Quam eligendi qui architecto praesentium explicabo!</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime earum perferendis asperiores labore quae eum illum impedit 
+        officiis. Ullam inventore impedit unde rerum corporis cum sapiente expedita voluptatum nihil sequi? Lorem ipsum, dolor sit 
+        amet consectetur adipisicing elit. Magni amet officiis exercitationem, et corrupti quia voluptatibus, recusandae vel eligendi, 
+        porro commodi voluptatem assumenda! Voluptatem voluptas deleniti ad atque, officiis tempora? Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Delectus nisi architecto nulla provident quaerat vitae qui aspernatur nobis iste cupiditate ea 
+        repudiandae, debitis doloribus error aliquam quas beatae similique pariatur. Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit. Numquam ducimus quas sapiente recusandae voluptatum? Natus ducimus dolorum veritatis? Dolores fuga ipsa dignissimos 
+        aspernatur repellendus? Quam eligendi qui architecto praesentium explicabo!</p>
+    </section>
+    <section>
+      <figure>
+        <img src="C:/Revature/Project 0/Images/building.jpg" alt="Corporate Office" class="img-responsive" width="800" height="800" hspace="10">
+    </figure>
+  </section>
+</main>
+  {% endblock %}

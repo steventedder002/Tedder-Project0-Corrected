@@ -1,0 +1,13 @@
+{% extends 'maintemp.nunjucks' %}
+
+{% block main %}
+  <ul>
+    {% for item in info.contacts %}
+      <li>
+        <p>{{item.name}}</p>
+        <p>{{item.Phone}}</p>
+        <p>{{item.Email}}</p>
+        <p>{{item.Feedback}}</p>
+      </li>
+  </ul>
+  {% endblock %}

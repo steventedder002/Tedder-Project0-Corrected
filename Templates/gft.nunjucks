@@ -1,0 +1,50 @@
+{% extends 'maintemp.nunjucks' %}
+
+{% block main %}
+<main>
+    <h4 class="col-sm-12">
+      Gift Cards
+    </h4>
+
+      <section class="col-sm-2">
+        <figure>
+          <a href="Links/bronze.html"><img src="Images/gift.jpg" alt="$10 Gift Card" class="img-responsive"></a>
+            <figcaption>
+              <a href="Links/bronze.html"><h5>Bronze Gift Card</h5></a>
+              <h6>$10.00</h6></br></br>
+            </figcaption>
+        </figure>
+      </section>
+
+      <section class="col-sm-2">
+          <figure>
+            <a href="Links/silver.html"><img src="Images/gift.jpg" alt="$20 Gift Card" class="img-responsive"></a>
+              <figcaption>
+                <a href="Links/silver.html"><h5>Silver Gift Card</h5></a>
+                <h6>$20.00</h6></br></br>
+              </figcaption>
+          </figure>
+        </section>
+
+        <section class="col-sm-2">
+            <figure>
+              <a href="Links/gold.html"><img src="Images/gift.jpg" alt="$50 Gift Card" class="img-responsive"></a>
+                <figcaption>
+                  <a href="Links/gold.html"><h5>Gold Gift Card</h5></a>
+                  <h6>$50.00</h6></br></br>
+                </figcaption>
+            </figure>
+          </section>
+
+          <section class="col-sm-2">
+              <figure>
+                <a href="Links/platinum.html"><img src="Images/gift.jpg" alt="$100 Gift Card" class="img-responsive"></a>
+                  <figcaption>
+                    <a href="Links/platinum.html"><h5>Platinum Gift Card</h5></a>
+                    <h6>$100.00</h6></br></br>
+                  </figcaption>
+              </figure>
+            </section>
+</main>
+
+  {% endblock %}

@@ -1,7 +1,7 @@
-function contact(n, p, e, f){
-  this.name = n;
-  this.phone = p;
-  this.email = e;
-  this.feedback = f;
+function info(name, Phone, Email, Feedback){
+  this.name = name;
+  this.phone = Phone;
+  this.email = Email;
+  this.feedback = Feedback;
 }
-module.exports = contact;
+module.exports = info;

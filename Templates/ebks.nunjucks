@@ -1,37 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Project BookStore</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> 
-  <link rel="stylesheet" href="Styles/index.css">
-</head>
+{% extends 'maintemp.nunjucks' %}
 
-<body class="container-fluid">
-  <header class="row">
-    <h1 class="col-4">
-      <a href="index.html">Project BookStore</a>
-    </h1>
-
-    <nav class="col-sm-9">
-      <ul class="nav navbar-nav">
-      <li><a href="bks.html">Books</a></li>
-      <li><a href="ebks.html">E-Books</a></li>
-      <li><a href="pop.html">Popular Choices</a></li>
-      <li><a href="gft.html">Gift Cards</a></li>
-      <li><a href="contacts.html">Contact Us</a></li>
-      <li><a href="about.html">About Us</a></li>
-      </ul>
-    </nav>
-  </header>
-</body>
-
+{% block main %}
 <main class="row">
   <h4 class="col-sm-12">
-    Popular Choice
+    Electronic Titles
   </h4>
 
   <section>
@@ -39,7 +11,7 @@
       <figure>
         <a href="Links/bk1.html"><img src="Images/bk1.jpg" alt="The President Is Missing (Hardcover)" class="img-responsive"></a>
         <figcaption>
-          <a href="Links/bk1.html"><h5>The Outsider</h5></a>
+            <a href="Links/bk1.html"><h5>The President Is Missing</h5></a>
             <h6>James Patterson</h6>
             <h6>Hardcover  $18.00</h6>
         </figcaption>
@@ -239,20 +211,141 @@
       </figure>
     </section>
   </section>
-</main>
 
-<footer class="row">
-    <nav class="col-sm-8 col-sm-offset-2">
-      <ul class="nav navbar-nav">
-        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a></li>
-        <li><a href="https://www.twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
-        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
-        <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-2x"></i></a></li>
-      </ul>
-    </nav>
+  <section class="col-sm-2">
+    <figure>
+      <a href="Links/bk25.html"><img src="Images/bk25.jpg" alt="The Merciless IV" class="img-responsive"></a>
+        <figcaption>
+          <a href="Links/bk25.html"><h5>The Merciless IV</h5></a>
+          <h6>Danielle Vega</h6>
+          <h6>Hardcover  $17.99</h6></br></br>
+        </figcaption>
+    </figure>
+  </section>
+</section>  
+
+  <section class="col-sm-2">
+    <figure>
+      <a href="Links/bk26.html"><img src="Images/bk26.jpg" alt="What Truth Sounds Like" class="img-responsive"></a>
+        <figcaption>
+          <a href="Links/bk26.html"><h5>What Truth Sounds Like</h5></a>
+          <h6>Michael Eric Dyson</h6>
+          <h6>Hardcover  $17.16</h6></br></br>
+       </figcaption>
+    </figure>
+  </section>
+
+  <section class="col-sm-2">
+    <figure>
+      <a href="Links/bk27.html"><img src="Images/bk27.jpg" alt="The Restless Wave" class="img-responsive"></a>
+        <figcaption>
+          <a href="Links/bk27.html"><h5>The Restless Wave</h5></a>
+          <h6>John McCain</h6>
+          <h6>Hardcover  $18.00</h6></br></br>
+        </figcaption>
+    </figure>
+  </section>
+
+  <section class="col-sm-2">
+    <figure>
+      <a href="Links/bk28.html"><img src="Images/bk28.jpg" alt="Legendary" class="img-responsive"></a>
+        <figcaption>
+          <a href="Links/bk28.html"><h5>Legendary</h5></a>
+          <h6>Stephanie Garber</h6>
+          <h6>Hardcover  $14.02</h6></br></br>
+        </figcaption>
+    </figure>
+  </section>
+
+  <section class="col-sm-2">
+    <figure>
+      <a href="Links/bk29.html"><img src="Images/bk29.jpg" alt="Shelter in Place" class="img-responsive"></a>
+        <figcaption>
+          <a href="Links/bk29.html"><h5>Shelter in Place</h5></a>
+          <h6>Nora Roberts</h6>
+          <h6>Hardcover  $17.91</h6></br></br>
+        </figcaption>
+    </figure>
+  </section>
+
+  <section class="col-sm-2">
+    <figure>
+      <a href="Links/bk30.html"><img src="Images/bk30.jpg" alt="Facts and Fears" class="img-responsive"></a>
+        <figcaption>
+          <a href="Links/bk30.html"><h5>Facts and Fears</h5></a>
+          <h6>James R. Clapper</h6>
+          <h6>Hardcover  $19.49</h6></br></br></br></br></br>
+        </figcaption>
+    </figure>
+  </section>
+
+<section>
+  <section class="col-sm-2">
+    <figure>
+      <a href="Links/bk31.html"><img src="Images/bk31.jpg" alt="The Gray Ghost" class="img-responsive"></a>
+        <figcaption>
+          <a href="Links/bk31.html"><h5>The Gray Ghost</h5></a>
+          <h6>Clive Cussler</h6>
+          <h6>Hardcover  $18.56</h6></br></br>
+        </figcaption>
+    </figure>
+  </section>
+
+  <section class="col-sm-2">
+    <figure>
+      <a href="Links/bk32.html"><img src="Images/bk32.jpg" alt="To the Moon and Back" class="img-responsive"></a>
+        <figcaption>
+          <a href="Links/bk32.html"><h5>To the Moon and Back</h5></a>
+          <h6>Karen Kingsbury</h6>
+          <h6>Hardcover  $17.71</h6></br></br>
+        </figcaption>
+    </figure>
+  </section>
+
+ <section class="col-sm-2">
+   <figure>
+    <a href="Links/bk33.html"><img src="Images/bk33.jpg" alt="Calypso" class="img-responsive"></a>
+       <figcaption>
+         <a href="Links/bk33.html"><h5>Calypso</h5></a>
+         <h6>David Sedaris</h6>
+         <h6>Hardcover  $19.92</h6></br></br>
+       </figcaption>
+   </figure>
+ </section>
   
-    <small class="col-sm-12 text-center">
-      Copyright &copy; 2018 Steven Tedder, all rights reserved.
-    </small>
-  </footer>
-</html>
+  <section class="col-sm-2">
+    <figure>
+      <a href="Links/bk34.html"><img src="Images/bk34.jpg" alt="Magnolia Table" class="img-responsive"></a>
+        <figcaption>
+          <a href="Links/bk34.html"><h5>Magnolia Table</h5></a>
+          <h6>Joanna Gaines</h6>
+          <h6>Hardcover  $19.19</h6></br></br>
+        </figcaption>
+    </figure>
+  </section>
+
+
+  <section class="col-sm-2">
+    <figure>
+      <a href="Links/bk35.html"><img src="Images/bk35.jpg" alt="War Storm" class="img-responsive"></a>
+        <figcaption>
+          <a href="Links/bk35.html"><h5>War Storm</h5></a>
+          <h6>Victoria Aveyard</h6>
+          <h6>Hardcover  $13.92</h6></br></br>
+        </figcaption>
+    </figure>
+  </section>
+
+  <section class="col-sm-2">
+    <figure>
+      <a href="Links/bk36.html"><img src="Images/bk36.jpg" alt="Bearskin" class="img-responsive"></a>
+        <figcaption>
+          <a href="Links/bk36.html"><h5>Bearskin</h5></a>
+          <h6>James A. McLaughlin</h6>
+          <h6>Hardcover  $26.99</h6></br></br>
+        </figcaption>
+    </figure>
+  </section>
+</section>
+</main>
+  {% endblock %}

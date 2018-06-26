@@ -6,6 +6,7 @@ var info = require('./formdata');
 const app = express();
 
 app.use(express.static('Public'));
+app.use(express.static('Script/JS'));
 
 app.get('/', (req, res) =>{                                          
   res.sendFile(path.join(__dirname,'../index.html'));
