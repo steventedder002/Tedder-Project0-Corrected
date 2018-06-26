@@ -17,8 +17,9 @@ var httpHandler = (request, response) => {
         response.end(data);
       });
       break;
+
       case 'POST':
-      if (request.url === './about'){
+      if (request.url === '/about'){
         fs.readFile('./about.html', (error, data) =>{       
           if (error){
             console.log(error);
@@ -28,6 +29,7 @@ var httpHandler = (request, response) => {
         });
       }
         break;
+
         case 'POST':
       if (request.url === './bks'){
         fs.readFile('./bks.html', (error, data) =>{       

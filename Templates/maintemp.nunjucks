@@ -1,0 +1,55 @@
+{% block page %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project BookStore</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="Styles/index.css">
+</head>
+
+<body class="container-fluid">
+  {% block header %}
+    <header class="row">
+      <h1 class="col-4">
+        <a href="index.html">Project BookStore</a>
+      </h1>
+
+      <nav class="col-sm-9">
+        <ul class="nav navbar-nav">
+        <li><a href="./bks.html">Books</a></li>
+        <li><a href="./ebks.html">E-Books</a></li>
+        <li><a href="../pop.html">Popular Choices</a></li>
+        <li><a href="../gft.html">Gift Cards</a></li>
+        <li><a href="../contacts.html">Contact Us</a></li>
+        <li><a href="../about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+  {% endblock %}
+
+  {% block main %}
+
+  {% endblock %}  
+
+  {% block footer %}
+    <footer class="row">
+    <nav class="col-sm-8 col-sm-offset-2">
+      <ul class="nav navbar-nav">
+        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a></li>
+        <li><a href="https://www.twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a></li>
+        <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+      </ul>
+    </nav>
+  
+    <small class="col-sm-12 text-center">
+      Copyright &copy; 2018 Steven Tedder, all rights reserved.
+    </small>
+  </footer>
+</html>
+
+{% endblock %}  
